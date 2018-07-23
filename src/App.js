@@ -12,6 +12,7 @@ class App extends Component {
 
   render() {
     return (
+      /*
       <div id="main">
         <header>
             <div className="container-fluid">
@@ -19,8 +20,8 @@ class App extends Component {
               <div className="col-xs-2 col-xs-push-2">
                 <nav>
                   <Menu
-                    id={ "navbar" }
-                    burgerButtonClassName={ "my-class" }
+                    id={"navbar"}
+                    burgerButtonClassName={"my-class"}
                   >
                     <a id="nav-home" className="nav-link">Home</a>
                     <a id="nav-phil" className="nav-link">Philosophy/Inspiration</a>
@@ -33,6 +34,10 @@ class App extends Component {
             </div>
             </div>
         </header>
+      </div>
+      */
+      <div className="main">
+
       </div>
     );
   }
