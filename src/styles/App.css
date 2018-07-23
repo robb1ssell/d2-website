@@ -4,7 +4,8 @@
 
 .top-logo {
   height: 80px;
-  padding-left: 50px;
+  float: right;
+  margin: 0;
 }
 
 .header {
