@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../images/d2-circle-text.svg';
 import { slide as Menu } from 'react-burger-menu';
+import { Link } from 'react-router-dom'
 
 
 class Header extends React.Component {
@@ -21,9 +22,18 @@ class Header extends React.Component {
                   width={ 250 }
                   id={"navbar"}
                   burgerButtonClassName={"my-class"}
-                >
-                  <a id="nav-home" className="nav-link">Home</a>
-                  <a id="nav-phil" className="nav-link">Philosophy/Inspiration</a>
+                > 
+                  <Link to='/' exact>Home</Link>
+                  <Link to='/philosophy' exact>Philosophy/Inspiration</Link>
+                  <Link to='/' exact>Projects</Link>
+                  <Link to='/' exact>People</Link>
+                  <Link to='/' exact>D2 University</Link>
+                  <Link to='/' exact>Sleepover Project&reg;</Link>
+                  <Link to='/' exact>News</Link>
+                  <Link to='/' exact>Careers</Link>
+                  <Link to='/' exact>Blog</Link>
+                  <Link to='/contact' exact>Contact Us</Link>
+                  <Link to='/' exact>Where's My Hat?</Link>
                 </Menu>
                 <img src={logo} className="top-logo pull-right" alt="D2 Architecture" />
               </div>
