@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../images/d2-circle-text.svg';
 import { slide as Menu } from 'react-burger-menu';
-import { Link } from 'react-router-dom'
+import { NavLink, NavNavLink } from 'react-router-dom'
 
 
 class Header extends React.Component {
@@ -23,17 +23,17 @@ class Header extends React.Component {
                   id={"navbar"}
                   burgerButtonClassName={"my-class"}
                 > 
-                  <Link to='/' exact>Home</Link>
-                  <Link to='/philosophy' exact>Philosophy/Inspiration</Link>
-                  <Link to='/' exact>Projects</Link>
-                  <Link to='/' exact>People</Link>
-                  <Link to='/' exact>D2 University</Link>
-                  <Link to='/' exact>Sleepover Project&reg;</Link>
-                  <Link to='/' exact>News</Link>
-                  <Link to='/' exact>Careers</Link>
-                  <Link to='/' exact>Blog</Link>
-                  <Link to='/contact' exact>Contact Us</Link>
-                  <Link to='/' exact>Where's My Hat?</Link>
+                  <NavLink to='/'>Home</NavLink>
+                  <NavLink to='/philosophy'>Philosophy/Inspiration</NavLink>
+                  <NavLink to='/projects'>Projects</NavLink>
+                  <NavLink to='/people'>People</NavLink>
+                  <NavLink to='/d2u'>D2 University</NavLink>
+                  <NavLink to='/sleepover'>Sleepover Project&reg;</NavLink>
+                  <NavLink to='/news'>News</NavLink>
+                  <NavLink to='/careers'>Careers</NavLink>
+                  <NavLink to='/blog'>Blog</NavLink>
+                  <NavLink to='/contact'>Contact Us</NavLink>
+                  <NavLink to='/hat'>Where's My Hat?</NavLink>
                 </Menu>
                 <img src={logo} className="top-logo pull-right" alt="D2 Architecture" />
               </div>
