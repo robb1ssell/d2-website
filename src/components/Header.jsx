@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../images/d2-circle-text.svg';
 import { slide as Menu } from 'react-burger-menu';
-import { NavLink, NavNavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 
 
 class Header extends React.Component {
@@ -17,6 +17,7 @@ class Header extends React.Component {
           <div id="main" className="container-fluid">
             <div className="row">
               <div className="col-sm-12">
+                {/****  TODO: Close menu when a link is clicked  ****/}
                 <Menu
                   noOverlay
                   width={ 250 }
@@ -35,7 +36,10 @@ class Header extends React.Component {
                   <NavLink to='/contact'>Contact Us</NavLink>
                   <NavLink to='/hat'>Where's My Hat?</NavLink>
                 </Menu>
-                <img src={logo} className="top-logo pull-right" alt="D2 Architecture" />
+                
+                <Link to='/'>
+                  <img src={logo} className="top-logo pull-right" alt="D2 Architecture" />
+                </Link>
               </div>
             </div>
           </div>
