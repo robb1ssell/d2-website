@@ -2,10 +2,22 @@
   text-align: center;
 }
 
+#main {
+  padding: 0px;
+}
+
+nav {
+  display: inline;
+}
+
+.nav-link {
+  padding-left: 0px;
+}
+
 .top-logo {
   height: 80px;
   float: right;
-  margin: 0;
+  margin-top: 12px;
 }
 
 .header {
@@ -18,18 +30,4 @@
 
 .App-intro {
   font-size: large;
-}
-
-/* Position and sizing of burger button */
-.bm-burger-button {
-  position: fixed;
-  width: 36px;
-  height: 30px;
-  left: 16px;
-  top: 26px;
-}
-
-/* Color/shape of burger icon bars */
-.bm-burger-bars {
-  background: #4d4b4b;
 }
