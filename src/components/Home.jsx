@@ -16,18 +16,32 @@ class Home extends Component {
   }
   render() {
     return (
-      <div id="home-page-gallery">
-          <ImageGallery
-            items={homePageImages}
-            showFullscreenButton={this.state.showFullscreenButton && this.state.showGalleryFullscreenButton}
-            showPlayButton={this.state.showPlayButton && this.state.showGalleryPlayButton}
-            showThumbnails={this.state.showThumbnails}
-            showIndex={this.state.showIndex}
-            showNav={this.state.showNav}
-            slideDuration={parseInt(this.state.slideDuration)}
-            slideInterval={parseInt(this.state.slideInterval)}
-            autoPlay={this.state.autoPlay}
-          />
+      <div className="container">
+        <div id="home-content" className="row">
+          <div id="home-page-gallery" className="col-sm-12">
+            <ImageGallery
+              items={homePageImages}
+              showFullscreenButton={this.state.showFullscreenButton && this.state.showGalleryFullscreenButton}
+              showPlayButton={this.state.showPlayButton && this.state.showGalleryPlayButton}
+              showThumbnails={this.state.showThumbnails}
+              showIndex={this.state.showIndex}
+              showNav={this.state.showNav}
+              slideDuration={parseInt(this.state.slideDuration)}
+              slideInterval={parseInt(this.state.slideInterval)}
+              autoPlay={this.state.autoPlay}
+            />
+          </div>
+
+          <div id="firm-info" className="col-sm-12 center-text">
+            <h5>Firm Information</h5>
+            <p>
+              D2 Architecture is an architectural design firm that specializes in Senior Living (SL) Architecture. 
+              In fact, it’s all we do. From our open-studio office in Dallas, we take the demand for our deep portfolio 
+              (Hospitality/Healthcare/Residential design that create a senior living community) nationally across Texas 
+              and multiple States from California to Florida.
+            </p>
+          </div>
+        </div>
       </div>
     );
   }

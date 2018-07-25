@@ -12,9 +12,9 @@ class Header extends React.Component {
   
   render() {
     return (
-      <div>
+      <div id="header-master">
         <header>
-          <div id="main" className="container-fluid">
+          <div id="header-content" className="container-fluid">
             <div className="row">
               <div className="col-sm-12">
                 {/****  TODO: Close menu when a link is clicked  ****/}

@@ -1,5 +1,6 @@
 body {
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
   width: 100%;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -10,8 +11,20 @@ h1 {
   text-align: center;
 }
 
-#main {
+.center-text {
+  text-align: center;
+}
+
+#header-master {
+  padding-bottom: 25px;
+}
+
+#header-content {
   padding: 0px;
+}
+
+#firm-info {
+  margin-top: 15px;
 }
 
 nav {
