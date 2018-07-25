@@ -3,6 +3,7 @@ import './styles/App.css';
 import './styles/burger-style.css';
 import Header from './components/Header';
 import Main from './components/Main';
+import Footer from './components/Footer';
 
 class App extends Component {
 
@@ -11,6 +12,7 @@ class App extends Component {
       <div id="master-container">
         <Header/>
         <Main/>
+        <Footer/>
       </div>
     );
   }

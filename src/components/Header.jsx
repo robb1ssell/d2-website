@@ -14,7 +14,7 @@ class Header extends React.Component {
     return (
       <div id="header-master">
         <header>
-          <div id="header-content" className="container-fluid">
+          <div id="header-content" className="container">
             <div className="row">
               <div className="col-sm-12">
                 {/****  TODO: Close menu when a link is clicked  ****/}
