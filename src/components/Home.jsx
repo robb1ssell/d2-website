@@ -12,7 +12,7 @@ class Home extends Component {
     showGalleryPlayButton: false,
     showNav: false,
     slideDuration: 1000,
-    slideInterval: 4000,
+    slideInterval: 6000,
   }
   render() {
     return (

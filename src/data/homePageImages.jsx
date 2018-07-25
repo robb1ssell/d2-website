@@ -1,14 +1,38 @@
 export default [
   {
-    original: 'http://via.placeholder.com/1000x600',
-    thumbnail: 'http://via.placeholder.com/250x150',
+    original: '',
+    thumbnail: ''
   },
   {
-    original: 'http://via.placeholder.com/1000x600',
-    thumbnail: 'http://via.placeholder.com/250x150'
+    original: '',
+    thumbnail: ''
   },
   {
-    original: 'http://via.placeholder.com/1000x600',
-    thumbnail: 'http://via.placeholder.com/250x150'
+    original: '',
+    thumbnail: ''
+  },
+  {
+    original: '',
+    thumbnail: ''
+  },
+  {
+    original: '',
+    thumbnail: ''
+  },
+  {
+    original: '',
+    thumbnail: ''
+  },
+  {
+    original: '',
+    thumbnail: ''
+  },
+  {
+    original: '',
+    thumbnail: ''
+  },
+  {
+    original: '',
+    thumbnail: ''
   }
 ]
