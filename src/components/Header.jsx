@@ -5,6 +5,23 @@ import { NavLink, Link } from 'react-router-dom'
 
 
 class Header extends React.Component {
+  constructor (props) {
+    super(props)
+    this.state = {
+      menuOpen: false
+    }
+  }
+
+  // This keeps state in sync with the opening/closing of the menu
+  // via the default means, e.g. clicking the X, pressing the ESC key etc.
+  handleStateChange (state) {
+    this.setState({menuOpen: state.isOpen})  
+  }
+  
+  // This is used to close the menu when a user clicks a menu item
+  closeMenu () {
+    this.setState({menuOpen: false})
+  }
 
   showSettings (event) {
     event.preventDefault();
@@ -23,18 +40,53 @@ class Header extends React.Component {
                   width={ 250 }
                   id={"navbar"}
                   burgerButtonClassName={"my-class"}
+                  isOpen={this.state.menuOpen}
+                  onStateChange={(state) => this.handleStateChange(state)}
                 > 
-                  <NavLink to='/'>Home</NavLink>
-                  <NavLink to='/philosophy'>Philosophy/Inspiration</NavLink>
-                  <NavLink to='/projects'>Projects</NavLink>
-                  <NavLink to='/people'>People</NavLink>
-                  <NavLink to='/d2u'>D2 University</NavLink>
-                  <NavLink to='/sleepover'>Sleepover Project&reg;</NavLink>
-                  <NavLink to='/news'>News</NavLink>
-                  <NavLink to='/careers'>Careers</NavLink>
-                  <NavLink to='/blog'>Blog</NavLink>
-                  <NavLink to='/contact'>Contact Us</NavLink>
-                  <NavLink to='/hat'>Where's My Hat?</NavLink>
+                  <NavLink to='/'
+                    onClick={() => this.closeMenu()}
+                  >Home
+                  </NavLink>
+                  <NavLink to='/philosophy'
+                    onClick={() => this.closeMenu()}
+                  >Philosophy/Inspiration
+                  </NavLink>
+                  <NavLink to='/projects'
+                    onClick={() => this.closeMenu()}
+                  >Projects
+                  </NavLink>
+                  <NavLink to='/people'
+                    onClick={() => this.closeMenu()}
+                  >People
+                  </NavLink>
+                  <NavLink to='/d2u'
+                    onClick={() => this.closeMenu()}
+                  >D2 University
+                  </NavLink>
+                  <NavLink to='/sleepover'
+                    onClick={() => this.closeMenu()}
+                  >Sleepover Project&reg;
+                  </NavLink>
+                  <NavLink to='/news'
+                    onClick={() => this.closeMenu()}
+                  >News
+                  </NavLink>
+                  <NavLink to='/careers'
+                    onClick={() => this.closeMenu()}
+                  >Careers
+                  </NavLink>
+                  <NavLink to='/blog'
+                    onClick={() => this.closeMenu()}
+                  >Blog
+                  </NavLink>
+                  <NavLink to='/contact'
+                    onClick={() => this.closeMenu()}
+                  >Contact Us
+                  </NavLink>
+                  <NavLink to='/hat'
+                    onClick={() => this.closeMenu()}
+                  >Where's My Hat?
+                  </NavLink>
                 </Menu>
                 
                 <Link to='/'>
