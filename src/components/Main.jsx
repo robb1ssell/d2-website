@@ -15,7 +15,7 @@ import Sleepover from './Sleepover';
 class Main extends Component {
   render() {
     return (
-      <div>
+      <div className='container'>
         <main>
           <Switch>
             <Route exact path='/' component={Home}/>
