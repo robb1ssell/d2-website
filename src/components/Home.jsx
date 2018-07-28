@@ -5,7 +5,7 @@ import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";
 
 class Home extends Component {
   state = {
-    autoPlay: false,
+    autoPlay: true,
     showFullscreenButton: false,
     showGalleryFullscreenButton: false,
     showPlayButton: false,

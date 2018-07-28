@@ -29,10 +29,6 @@ h1 {
   padding: 0px;
 }
 
-#firm-info {
-  margin-top: 15px;
-}
-
 nav {
   display: inline;
 }
@@ -56,4 +52,16 @@ nav {
   background-color: #f5f5f5;
   font-size: 14px;
   text-align: center;
+}
+
+.image-gallery {
+  margin-bottom: 15px;
+}
+
+.image-gallery-slide {
+  opacity: 0;
+  transition: opacity 1500ms ease-in-out !important;
+}
+.image-gallery-slide.center {
+  opacity: 1;
 }

@@ -4,6 +4,17 @@ import philosophyImages from '../data/philosophyImages'
 import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";
 
 class Philosophy extends Component {
+  state = {
+    autoPlay: true,
+    showFullscreenButton: false,
+    showThumbnails: false,
+    showGalleryFullscreenButton: false,
+    showPlayButton: false,
+    showGalleryPlayButton: false,
+    showNav: false,
+    slideDuration: 450,
+    slideInterval: 7000,
+  }
   render() {
     return (
       <div className='row'>
@@ -12,6 +23,15 @@ class Philosophy extends Component {
 
           <ImageGallery
             items={philosophyImages}
+            showThumbnails={this.state.showThumbnails}
+            showFullscreenButton={this.state.showFullscreenButton && this.state.showGalleryFullscreenButton}
+            showPlayButton={this.state.showPlayButton && this.state.showGalleryPlayButton}
+            showThumbnails={this.state.showThumbnails}
+            showIndex={this.state.showIndex}
+            showNav={this.state.showNav}
+            slideDuration={parseInt(this.state.slideDuration)}
+            slideInterval={parseInt(this.state.slideInterval)}
+            autoPlay={this.state.autoPlay}
           />
 
           <p>
