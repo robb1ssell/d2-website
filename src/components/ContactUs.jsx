@@ -11,6 +11,26 @@ class ContactUs extends Component {
           className='fit-image'
         />
 
+        <div className='center-text'>
+          <div className='spacing'>
+            D2 Architecture, LLC <br/>
+            2001 North Lamar Street, Suite 300 <br/>
+            Dallas, TX 75202
+          </div>
+          <div>
+            <a href="https://goo.gl/maps/Qb8oKvL5L7G2">View on Map</a>
+          </div>
+          <div className='spacing'>
+            Phone: 214.220.1800
+          </div>
+          <div className='spacing'>
+            Fax: 214.220.1818
+          </div>
+          <div className='spacing'>
+            Email: info@d2architecture.com
+          </div>
+        </div>
+
         <form action="mailto:robertb.webdev@gmail.com" method='post'>
           <input 
             type="text" 
@@ -38,6 +58,7 @@ class ContactUs extends Component {
             id="message" 
             cols="30" 
             rows="10"
+            maxLength='1000'
             placeholder='Message'
           >
           </textarea>

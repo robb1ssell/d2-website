@@ -58,6 +58,14 @@ nav {
   max-width: 100%;
 }
 
+.center-text {
+  text-align: center;
+}
+
+.spacing {
+  padding: 5px;
+}
+
 .image-gallery {
   margin-bottom: 15px;
 }
