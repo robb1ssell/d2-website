@@ -98,3 +98,7 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
+
+#people-master {
+  text-align: center;
+}
