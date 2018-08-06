@@ -25,7 +25,7 @@ class Main extends Component {
             <Route path='/projects' component={Portfolio}/>
             <Route exact path='/people' component={People}/>
             <Route exact path='/people/leadership' component={Leadership}/>
-            <Route exact path='/people/leadership/david' component={DavidDillard}/>
+            <Route exact path='/people/leadership/david-dillard' component={DavidDillard}/>
             <Route path='/d2u' component={D2U}/>
             <Route path='/sleepover' component={Sleepover}/>
             <Route path='/hat' component={Hat}/>
