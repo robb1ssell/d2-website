@@ -102,3 +102,25 @@ input[type=submit] {
 #people-master {
   text-align: center;
 }
+
+.person-larger {
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+
+.bio {
+  max-width: 690px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+#d2u-logo,
+.dillard-sig {
+  margin-bottom: 25px;
+}
+
+blockquote {
+  margin-left: 30px;
+}

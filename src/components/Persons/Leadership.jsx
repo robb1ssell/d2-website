@@ -7,21 +7,23 @@ class Leadership extends Component {
           <div className='row' id='people-master'>
           <h1 className='col-sm-12'>Leadership</h1>
             <div className="col-md-6">
-            <Link to='/people/leadership/david-dillard'>
-              <img 
-                src="https://lh3.googleusercontent.com/Yibfvke12f_v9ipti51T0uUqBm5QjDzZEqVO0eRiVqbkfwbMYtYQY1jPuCDE12BV3VTqs1SgGBmKclquCNTnrioCwusB3lD_Sz-dIxhceIlVvjVP2oy7YLaovtOelWqmFCaR01F-ZvLH2Fy7bEBy0Y7H7SbZJiVS88tPwS7Kbao_Kd0MN90UIXHRCfXvwoIMdrTlmlFAwA4WwDIFgasKXp589ATDtu9Kkkb1YI8fsYkeq-pe9jEz2DcNNGPUFRt1UbejIbGQM8KGZLB4bnbKMxipTx8STFABHsl3OQN4qOm2bbcu0WIE3OCzbRvTmK6KkOs9OY7nJzzJzzdt_UBQBXubeHHepNPhEy0OZ9S4UDuDcEo7Ow1dfi652iU2LRuDByAXYgaUHgmxYOp9uwBg4nPSRp2eJbiZ-qxE6baQXgU59GE7_a4QmTfphZID3FEoTSSzjzn0GaBTGtSIUbTv7DWtrt3E-h3hNF33PlrVqUEIf9CiOrTez1Rl3mjUfIzQLuv-2h3Lk88eejPH8cE_NiGq3gMxvuDxiwhJY2RRtT-IVIIGH9_j9RuwdF8DCcJNdzfX99BYJakE5lM9eUMgr3hMQsWyTp4-NbqsRk4=w338-h191-no" 
-                alt="David Dillard Picture" 
-                className="person"
-              />
-            </Link>
+              <Link to='/people/leadership/david-dillard'>
+                <img 
+                  src="https://lh3.googleusercontent.com/Yibfvke12f_v9ipti51T0uUqBm5QjDzZEqVO0eRiVqbkfwbMYtYQY1jPuCDE12BV3VTqs1SgGBmKclquCNTnrioCwusB3lD_Sz-dIxhceIlVvjVP2oy7YLaovtOelWqmFCaR01F-ZvLH2Fy7bEBy0Y7H7SbZJiVS88tPwS7Kbao_Kd0MN90UIXHRCfXvwoIMdrTlmlFAwA4WwDIFgasKXp589ATDtu9Kkkb1YI8fsYkeq-pe9jEz2DcNNGPUFRt1UbejIbGQM8KGZLB4bnbKMxipTx8STFABHsl3OQN4qOm2bbcu0WIE3OCzbRvTmK6KkOs9OY7nJzzJzzdt_UBQBXubeHHepNPhEy0OZ9S4UDuDcEo7Ow1dfi652iU2LRuDByAXYgaUHgmxYOp9uwBg4nPSRp2eJbiZ-qxE6baQXgU59GE7_a4QmTfphZID3FEoTSSzjzn0GaBTGtSIUbTv7DWtrt3E-h3hNF33PlrVqUEIf9CiOrTez1Rl3mjUfIzQLuv-2h3Lk88eejPH8cE_NiGq3gMxvuDxiwhJY2RRtT-IVIIGH9_j9RuwdF8DCcJNdzfX99BYJakE5lM9eUMgr3hMQsWyTp4-NbqsRk4=w338-h191-no" 
+                  alt="David Dillard Picture" 
+                  className="person"
+                />
+              </Link>
               <p><strong>David Dillard</strong></p>
             </div>
             <div className="col-md-6">
-              <img 
-                src="https://lh3.googleusercontent.com/wppCp-asU_xQAJLqCXlion-UQR013315JN2eB-darwk0mJj5r7Yi-BTHydzU6TYKIAbAqzU20B6rDm6W8lzsVwvgf6hhvCUO2BTksI1Hi3-cTDceTpZlojyFaIOKjRw1zYhcdSyA9YiddOF3HC-dTaPrCluRh8V8fyUpMeOovGZtgawXERzeu-WNL_7dU-uj0_Jo3vLYffRwGMX3ai7moTpbx4OKZZPleSBuAUrJHKUXB34DZFaD8mBS7LDaHptQg01lT2rt0JT5PMVg2pTLd5rpUcA6QcIwrl28dMRI9jyVYG32D7Za0CglOsBXH_hi6vU7C552LLIM22U_FnbkZGG1cVSjdSIlzUZ6TrcFa4o9-Vrf_okTPGGj0MGCsef_69ZDzEjnPgcdM1wgBsYWPlbEdwmORpUvzF7gqt8T-b1eXWEo2SbymsHMOiqcJYEcqNv9CHWoP152rvGPAhn_mcoTH7hwA_Ke-RB_x99sAyiWCLQUsJQTN4g4D4CKm0lu8doI37FYin0_UqTEjf5o8BsxMbTnX4HuCb-CpyVFrY14o0ABV1H4wXhGukBJhs4eoZTntLViTAF1EtSl9-buwVUNAdUE7ALy9djYMLk=w338-h191-no" 
-                alt="D2 Leader" 
-                className="person"
-              />
+              <Link to='/people/leadership/doug-bissell'>
+                <img 
+                  src="https://lh3.googleusercontent.com/wppCp-asU_xQAJLqCXlion-UQR013315JN2eB-darwk0mJj5r7Yi-BTHydzU6TYKIAbAqzU20B6rDm6W8lzsVwvgf6hhvCUO2BTksI1Hi3-cTDceTpZlojyFaIOKjRw1zYhcdSyA9YiddOF3HC-dTaPrCluRh8V8fyUpMeOovGZtgawXERzeu-WNL_7dU-uj0_Jo3vLYffRwGMX3ai7moTpbx4OKZZPleSBuAUrJHKUXB34DZFaD8mBS7LDaHptQg01lT2rt0JT5PMVg2pTLd5rpUcA6QcIwrl28dMRI9jyVYG32D7Za0CglOsBXH_hi6vU7C552LLIM22U_FnbkZGG1cVSjdSIlzUZ6TrcFa4o9-Vrf_okTPGGj0MGCsef_69ZDzEjnPgcdM1wgBsYWPlbEdwmORpUvzF7gqt8T-b1eXWEo2SbymsHMOiqcJYEcqNv9CHWoP152rvGPAhn_mcoTH7hwA_Ke-RB_x99sAyiWCLQUsJQTN4g4D4CKm0lu8doI37FYin0_UqTEjf5o8BsxMbTnX4HuCb-CpyVFrY14o0ABV1H4wXhGukBJhs4eoZTntLViTAF1EtSl9-buwVUNAdUE7ALy9djYMLk=w338-h191-no" 
+                  alt="D2 Leader" 
+                  className="person"
+                />
+              </Link>
               <p><strong>Doug Bissell</strong></p>
             </div>
             <div className="col-md-6">

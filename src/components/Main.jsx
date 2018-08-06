@@ -13,6 +13,7 @@ import Portfolio from './Portfolio';
 import Sleepover from './Sleepover';
 import Leadership from './Persons/Leadership';
 import DavidDillard from './Persons/Leadership-Persons/DavidDillard';
+import DougBissell from './Persons/Leadership-Persons/DougBissell';
 
 class Main extends Component {
   render() {
@@ -26,6 +27,7 @@ class Main extends Component {
             <Route exact path='/people' component={People}/>
             <Route exact path='/people/leadership' component={Leadership}/>
             <Route exact path='/people/leadership/david-dillard' component={DavidDillard}/>
+            <Route exact path='/people/leadership/doug-bissell' component={DougBissell}/>
             <Route path='/d2u' component={D2U}/>
             <Route path='/sleepover' component={Sleepover}/>
             <Route path='/hat' component={Hat}/>
