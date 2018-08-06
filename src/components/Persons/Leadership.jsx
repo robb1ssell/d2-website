@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Link, Route, Switch} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 class Leadership extends Component {
     render() {
@@ -10,7 +10,7 @@ class Leadership extends Component {
               <Link to='/people/leadership/david-dillard'>
                 <img 
                   src="https://lh3.googleusercontent.com/Yibfvke12f_v9ipti51T0uUqBm5QjDzZEqVO0eRiVqbkfwbMYtYQY1jPuCDE12BV3VTqs1SgGBmKclquCNTnrioCwusB3lD_Sz-dIxhceIlVvjVP2oy7YLaovtOelWqmFCaR01F-ZvLH2Fy7bEBy0Y7H7SbZJiVS88tPwS7Kbao_Kd0MN90UIXHRCfXvwoIMdrTlmlFAwA4WwDIFgasKXp589ATDtu9Kkkb1YI8fsYkeq-pe9jEz2DcNNGPUFRt1UbejIbGQM8KGZLB4bnbKMxipTx8STFABHsl3OQN4qOm2bbcu0WIE3OCzbRvTmK6KkOs9OY7nJzzJzzdt_UBQBXubeHHepNPhEy0OZ9S4UDuDcEo7Ow1dfi652iU2LRuDByAXYgaUHgmxYOp9uwBg4nPSRp2eJbiZ-qxE6baQXgU59GE7_a4QmTfphZID3FEoTSSzjzn0GaBTGtSIUbTv7DWtrt3E-h3hNF33PlrVqUEIf9CiOrTez1Rl3mjUfIzQLuv-2h3Lk88eejPH8cE_NiGq3gMxvuDxiwhJY2RRtT-IVIIGH9_j9RuwdF8DCcJNdzfX99BYJakE5lM9eUMgr3hMQsWyTp4-NbqsRk4=w338-h191-no" 
-                  alt="David Dillard Picture" 
+                  alt="David Dillard" 
                   className="person"
                 />
               </Link>

@@ -7,7 +7,7 @@ class ContactUs extends Component {
         <h1>Contact Us</h1>
         <img 
           src="https://lh3.googleusercontent.com/D2l_v_mXeW0SWqI02EutTkG9zQhjjkn3Wa1aoINbmulxEJTLCe_cUcxKZC-NJuflQzxzMQA7sQgpmqrxesfoTf_Pog61ue3wPiU12QioDRs0FgXdg3yEQhWMjXiXSJCoG1ysbnPlD9FAttL3yBB-_7hbYDKH9Ok4Ul8ojVcFhRz4rFyNsCk2-OngPWVo-eVVyw597e8nl-ftoP2QN3WCG3FTYMPVMb_5IaLbKKU1BRA_DX6kV6zrYfqUhSfo2RTktsMHoLPVcYOSe2RFdyq0gqOE7mDMAZX5opEF5tu-VJz9qZlrVKqFeZp-ICqB3gXiPswRr42OQjRvgOvoxKHKZ9Ga28ry3t35EA5zF5KCiNOA6GbAlQG3Biy15s-E4mOL8DaEiDM2prOEq9lDptqWX_pH-bSAOZXB46gW-H9aTWRFwbGoZne6NVah5QpfUqQsgEUEfvLxNjP-20ZGPazOBzEEvLEPQE6LqLFg8Em-gr9yqFX-BqRTTdCCAx09UqzZUe_RDuPT5LWz6N3sLzgWafvhA0ElMitCLvdk_U9Eho_uKwW7lu21aD57lfmobrG7gDWIzHZwyKy6iG8hgOsOTsdu0ab124H9aGwdUSg=w500-h333-no" 
-          alt="D2 Group Photo"
+          alt="D2 Employees"
           className='fit-image'
         />
 

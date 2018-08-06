@@ -19,7 +19,7 @@ class D2U extends Component {
             to survey the faculty/staff (read: one in the same) about their experience, 
             their takeaways, their growth. If nothing else to determine if everyone had 
             in fact moved their dot on the chart up and the right. (
-            <Link to='/d2u-summary'>Read original D2U manifesto here</Link>).
+            <Link to='/d2u/summary'>Read original D2U manifesto here</Link>).
           </p>
 
           <p>
