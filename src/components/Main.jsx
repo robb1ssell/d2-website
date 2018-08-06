@@ -11,6 +11,8 @@ import People from './People';
 import Philosophy from './Philosophy';
 import Portfolio from './Portfolio';
 import Sleepover from './Sleepover';
+import Leadership from './Persons/Leadership';
+import DavidDillard from './Persons/Leadership-Persons/DavidDillard';
 
 class Main extends Component {
   render() {
@@ -21,7 +23,9 @@ class Main extends Component {
             <Route exact path='/' component={Home}/>
             <Route path='/philosophy' component={Philosophy}/>
             <Route path='/projects' component={Portfolio}/>
-            <Route path='/people' component={People}/>
+            <Route exact path='/people' component={People}/>
+            <Route exact path='/people/leadership' component={Leadership}/>
+            <Route exact path='/people/leadership/david' component={DavidDillard}/>
             <Route path='/d2u' component={D2U}/>
             <Route path='/sleepover' component={Sleepover}/>
             <Route path='/hat' component={Hat}/>
