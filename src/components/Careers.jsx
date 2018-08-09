@@ -65,6 +65,55 @@ class Careers extends Component {
             Brandon Criner, bcriner@d2architecture.com.
           </strong>
 
+          <hr/>
+
+          <h4>Benefits</h4>
+          <hr/>
+          <p className='space-below'>
+            Not only has our portfolio grown to encompass some of the most 
+            progressive senior living projects in the country, we have grown. 
+            Our staff continues to grow in numbers and aptitude, cultivating 
+            among the most passionate, talented architects dedicated to 
+            advancing communities for seniors. Much of our passion is a …
+          </p>
+
+          <p className='spacing space-below'>
+            <strong>
+              Here's what a few of our staff had to say:
+            </strong>
+          </p>
+
+
+          <h4>Sterling Smith</h4>
+          <hr/>
+          <p className='space-below'>
+            D2 gave me an opportunity to feel like I was really giving back. 
+            My mother was declared fully disabled in 2008 (Multiple Sclerosis) 
+            and since then I’ve been very aware of the need for accessibility 
+            and, especially, senior housing. Prior to coming here, I’d worked 
+            in offices large (700+) and …
+          </p>
+
+          
+          <h4>Siobhan Winfrey</h4>
+          <hr/>
+          <p className='space-below'>
+            What I like about D2: The ability to “wear many hats” Constantly 
+            learning and constantly being challenged Our clients, we have the 
+            best in the industry Our team - David, our professional staff and 
+            consultants - care about the success of the design beyond construction completion
+          </p>
+
+          <h4>Nathan Sheppard</h4>
+          <hr/>
+          <p className='space-below'>
+            What attracted me to D2 was the open office setting.  It is really 
+            a level playing field here and the range of opportunity for a new 
+            graduate like myself is surprisingly large.  I feel like I am on 
+            the front lines of my projects which has included everything from 
+            sitting …
+          </p>
+
         </div>
       </div>
     );

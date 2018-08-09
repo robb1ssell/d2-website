@@ -125,3 +125,7 @@ input[type=submit] {
 blockquote {
   margin-left: 30px;
 }
+
+.space-below {
+  margin-bottom: 30px;
+}
