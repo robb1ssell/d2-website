@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ImageGallery from 'react-image-gallery'
+import { Link } from 'react-router-dom';
 import careerPageImages from '../data/careerPageImages'
 import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";
 
@@ -76,6 +77,9 @@ class Careers extends Component {
             among the most passionate, talented architects dedicated to 
             advancing communities for seniors. Much of our passion is a …
           </p>
+          <button className='read-more'>
+            <Link to='/benefits'>Read More</Link>
+          </button>
 
           <p className='spacing space-below'>
             <strong>
