@@ -7,7 +7,7 @@ class D2USummary extends Component {
       <div className='row'>
         <div className="col-sm-12">
           <img 
-            src="" 
+            src="https://lh3.googleusercontent.com/_EO2esLNa0kBU1aY2dcIz-EsYTW-OlkCukrdugaJbmcQkSVu9lefg1vNaa-AQb2KI0cweuswkTIBHREiVmfyBhl0hg9IyKsgzrQcJH0s2BQ-Y_xFTCcH6CsklkMF55OMZd_6N_OMFpIERBB7uZkL6KngrsKsX_7j4dGA9cb2JFbzMjCak9JXEzMcV58yAyfv2PlWwzPT8NT_NALijM-3jXnmTNPmzVeyeU542YDUdcrP3dutXwdHW2ZtAPjCvCIn49TxBGX22i-OUvFpdDiVwUiEVplF6lOQZwrmIInB_aBAvgy3BdANrjo6mTSvG2EZZ8iCc9isV7alcjf_ibT0uhhSP_LT3BhCb1iw466l4MqkmctMg4GruZOkizz9LU3RVpUVcVFoq71_nFhBRCOGAsPER3OvVK6bf9DBObQ9n_Ea4FPWVCb99-7fMVsLDXTlJc29owtBqOTviAqSiIrtUuEPSvZLTQKIuIRJWCqVLZU1huFe0h0UOXlEfeHGMA4PV4yY_IFhAO_tdiDlls6gxMgqtcUmbNKx-WY7EtH2NCGWVq-xErpNAieNmW7Rr1Jt8puBBOVGy9mwmnZpKe8h84zXhLxaZikY5uZZ4SE=w708-h101-no" 
             alt="D2U Letterhead"
           />
           <p>From the Desk of the President:</p>
@@ -54,7 +54,7 @@ class D2USummary extends Component {
           </p>
 
           <img 
-            src="" 
+            src="https://lh3.googleusercontent.com/xJSVY6ch6zbEkiA1sUtOP7_Uuy9h87GlIXErEDXFMzaQmeR22kW5yWmHzZoaJF1oSp9AS9FTX-2JckMKSLOINR_ez42dS_jeKu8gIo8YuwxO6F2aaT2Kkg76_q7i-lrfxfaoR7sFt5lEh_Nm_wZBbF7lkotDZjdNViLqkAPiu4FzABT3fX9BOcvMSye-_6g9n9k82XnvxJ1-tZLss80GuTmlVglcvv6SDGFVhRNnVYq5NhmUAIS_D-Td6YiMuwKqcti_xyq2rOD2a60aIo5JytoPIcXOxVdRDqgFkOJJxYHCawM5yhchCv6eM7mnx2yFNIMMfeQf9yA9kvHeMyRpGylnnp-2f-dwew_5YFNrPYMMqFVeHHgd1tm1ONYerojW7Autor5mf8ewYm6tf4T7NKQp_P8adix7dBNEHBSoEqmw_ezMHXFkkl00_Jrj4USFMi4dUouytwbPCEzysQL9aBcLyc69QM9P9PfMsCiQHfNCqVh8IL3w6weDo41UPPnKd2BWI6ZDWgHWfbNPq8x6L_CtBzPJJ4OxMQmPfnfoCs-XIFPbB3TLOLJw4ZMNrlrSqACZoth3XXfi9El8XbiOqLArpkzCwHn7nlB4suY=w350-h314-no" 
             alt="Growth Chart"
           />
 
@@ -104,7 +104,7 @@ class D2USummary extends Component {
           <p>Rah, rah, D2U!</p>
 
           <img 
-            src="" 
+            src="https://lh3.googleusercontent.com/9lAsEyCiypBwiroUEc0tvUhQeSz4kmuFn7of7rcsu6y4gnt_39hQghu7LM7oegnYHrrEVbgv2v2Sm9MPPk1LXx49l5gDAoKBCrBN4Pnp-7KZsOLQ4R-2gClzYP1pKuGiBG-0wdQ_6kONEc0yLQtJPoQttyLirbyQga-jIMd9Hl2JzhKvuraVBn9MJba4JZAgYkY_QooDNrlkhpqakmnhh5YULn2NgSX4j5vzV7xR03bd62EVZ_GwftYewIecwTqj3nTH096z3fWeA3e3ht4zBl4TcoHyZHJ4lzeMr4zlvvp3piGy0Gtxu03fN18ch6adBGVvi-GDq4OMmgp5ClKGipfss7W1abaPsUkFMVsBaO2K5IHi0kj9MVJIrmuUVL-5e1fQze--4vUA2JJa1PpFdzoMQcqorz5zsVfE_vPrAGHvQEDSIPnpC9bkuYF2YGNBDfD1D0V8qqtw-wQ35TqYT6skPtCIoEKXnhan2A__econJxtTjL1CPfHf0MI9d5rV0SGH8yNp52fH8tELfGtMYmSGlw6T0w0z_Zd7BsaiUYUxiie6qKTJ8JoP5_Oo9atLh5fj3tW13gbWQ39scwIkdAzi4OPw7FGaDuV2ubM=w288-h91-no" 
             alt="David Dillard Signature TODO:(small)"
           />
           <div className="center-text dillard-sig">

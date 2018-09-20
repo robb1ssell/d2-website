@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Switch, Route } from 'react-router-dom'
+import { Switch, Route, Redirect } from 'react-router-dom'
 import Home from './Home';
 import ContactUs from './ContactUs';
 import Blog from './Blog';
@@ -22,6 +22,7 @@ class Main extends Component {
       <div className='container'>
         <main>
           <Switch>
+            <Redirect from='/d2-website' to='/'/>
             <Route exact path='/' component={Home}/>
             <Route path='/philosophy' component={Philosophy}/>
             <Route path='/projects' component={Portfolio}/>
